@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #FDF8F5;
+    color:#4f4846;
+}
+
+
+h1,
+h2 {
+    margin: 20px;
+}
+    
+main {
+    padding: 60px 0px;
+}
+
+li {
+    display:inline;
+    padding: 20px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #266150;
+}
+header {
+    position: fixed;
+    border-bottom: 10px solid #DDAF94;
+}
+footer {
+    position: fixed;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4F4846;
+    color: white
+}
+figure {
+    margin-bottom: 40px;
+}
+img {
+    display: block;
+    margin: 20px auto;
+}
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #DDAF94;
+    background-color: #E8CEBF;
+}
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #DDAF94;
+    border-radius: 20px;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    
+}
+input {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+}
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: white;
+}
+
+.text-center {
+    text-align:center
+}
+.text-right {
+    text-align: right;
+}
+
+/* Man that was tough, some of my failed trying is below commented out
+So I can go back and look at how to think about this better
+Made wiht the solved */
+/* .box {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+#filler-text {
+    text-align: center;
+    font-size: larger;
+}
+#contactme {
+    background-color: blanchedalmond;
+}
+#contact {
+    padding: 5px;
+    border-color: fuchsia;
+    background: blanchedalmond;
+    text-align: center;
+}
+
+/* footer {
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+} */ */
